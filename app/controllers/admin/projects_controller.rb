@@ -1,10 +1,14 @@
-class ProjectsController < ApplicationController
+class Admin::ProjectsController < AdminsController
   def index
     @project = Project.all
   end
 
+  def show
+    @project = Project.find params[:id]
+  end
+
   def create
-    project = Project.create project_params
+    @project = Project.create project_params
   end
 
   private
