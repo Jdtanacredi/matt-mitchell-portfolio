@@ -9,7 +9,7 @@ class ProjectsController < ApplicationController
 
   private
 
-  def user_params
+  def project_params
     params.require(:project).permit(:dash_image, :cover_image, :image_1, :image_2, :image_3, :image_4)
   end
 
