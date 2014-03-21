@@ -32,6 +32,9 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'devise'
+gem "paperclip", "~> 4.1"
+gem "paperclip-dropbox", ">= 1.1.7"
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
