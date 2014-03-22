@@ -1,4 +1,5 @@
 class Admin::ProjectsController < AdminsController
+
   def index
     @project = Project.all
   end

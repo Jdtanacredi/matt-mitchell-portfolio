@@ -1,0 +1,8 @@
+<%= form_for @project, url: project_path, html: {multipart: true} do |f| %>
+    <%=	f.file_field :dash_image  %>
+    <%=	f.file_field :cover_photo  %>
+    <%=	f.file_field :image_1  %>
+    <%=	f.file_field :image_2  %>
+    <%=	f.file_field :image_3  %>
+    <%=	f.file_field :image_4  %>
+<% end %>

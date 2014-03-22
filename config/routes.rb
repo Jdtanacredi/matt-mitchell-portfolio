@@ -1,11 +1,13 @@
 MattMitchellPortfolio::Application.routes.draw do
   devise_for :admins
-  get "projects/index"
+  #get "projects/index"
+  root to: 'projects#index'
 
   namespace :admin do
     resources :projects
   end
 
+  resources :projects, only: [:index, :show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
