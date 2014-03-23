@@ -20,6 +20,10 @@ class Admin::ProjectsController < AdminsController
     @project = Project.find params[:id]
   end
 
+  def destroy
+    @project.destroy
+  end
+
   private
 
   def project_params

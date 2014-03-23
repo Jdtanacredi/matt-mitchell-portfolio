@@ -19,6 +19,10 @@ class Admin::BlogsController < AdminsController
     @blog = Blog.find params[:id]
   end
 
+  def destroy
+    @blog.destroy
+  end
+
   private
 
   def safe_blog
