@@ -11,9 +11,9 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140321213733) do
+ActiveRecord::Schema.define(version: 20140323162612) do
 
-  create_table "admin", force: true do |t|
+  create_table "admins", force: true do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"
@@ -33,7 +33,6 @@ ActiveRecord::Schema.define(version: 20140321213733) do
 
   create_table "projects", force: true do |t|
     t.string   "title"
-    t.string   "description"
     t.datetime "created_at"
     t.datetime "updated_at"
     t.string   "dash_image"
@@ -42,6 +41,7 @@ ActiveRecord::Schema.define(version: 20140321213733) do
     t.string   "image_2"
     t.string   "image_3"
     t.string   "image_4"
+    t.text     "description"
   end
 
 end
