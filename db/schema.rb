@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20140321213733) do
 
-  create_table "admins", force: true do |t|
+  create_table "admin", force: true do |t|
     t.string   "email",                  default: "", null: false
     t.string   "encrypted_password",     default: "", null: false
     t.string   "reset_password_token"

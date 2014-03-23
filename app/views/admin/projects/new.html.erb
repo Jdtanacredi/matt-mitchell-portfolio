@@ -1,6 +1,10 @@
 <h1>Admin Create Product Form</h1>
 
-<%= form_for @project, url: project_path, html: {multipart: true} do |f| %>
+<%= form_for @project, url: projects_path, html: {multipart: true} do |f| %>
+    <%= f.label :title %>
+        <%= f.text_field :title %>
+    <%= f.label :description %>
+        <%= f.text_field :description %>
     <%= f.label :dash_image %>
         <%=	f.file_field :dash_image  %>
     <%= f.label :cover_photo %>
