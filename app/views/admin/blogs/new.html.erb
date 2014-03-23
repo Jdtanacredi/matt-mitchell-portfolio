@@ -1,0 +1,20 @@
+<%= form_for :blog do |f| %>
+    <section>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </section>
+    <section>
+      <%= f.label :headline_bold %>
+      <%= f.text_field :headline_bold %>
+    </section>
+    <section>
+      <%= f.label :blog_description %>
+      <%= f.text_field :blog_description %>
+    </section>
+    <section>
+      <%= f.submit %>
+    </section>
+
+
+
+<% end %>
