@@ -3,15 +3,4 @@
 
 <%= link_to 'Add Your Project', new_admin_project_path %>
 
-<% @projects.each do |project| %>
-<%=	project.title %>
-<%= project.description %>
-<%=	image_tag project.dash_image.url %>
-<%=	image_tag project.cover_photo.url %>
-<%=	image_tag project.image_1.url %>
-<%=	image_tag project.image_2.url %>
-<%=	image_tag project.image_3.url %>
-<%=	image_tag project.image_4.url %>
-    <%= link_to 'Edit', edit_admin_project_path %>
-
-<%end%>
+<%= render 'projects' %>
