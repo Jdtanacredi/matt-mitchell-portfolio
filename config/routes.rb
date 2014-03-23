@@ -5,7 +5,8 @@ MattMitchellPortfolio::Application.routes.draw do
   root to: 'projects#index'
 
   namespace :admin do
-    resources :projects
+    resources :projects, :blogs
   end
   resources :projects, only: [:index, :show]
+  resources :blogs, only: [:index]
 end
