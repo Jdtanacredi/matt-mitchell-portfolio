@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20140323163044) do
+ActiveRecord::Schema.define(version: 20140323201029) do
 
   create_table "admins", force: true do |t|
     t.string   "email",                  default: "", null: false
@@ -43,13 +43,31 @@ ActiveRecord::Schema.define(version: 20140323163044) do
     t.string   "title"
     t.datetime "created_at"
     t.datetime "updated_at"
-    t.string   "dash_image"
-    t.string   "cover_photo"
-    t.string   "image_1"
-    t.string   "image_2"
-    t.string   "image_3"
-    t.string   "image_4"
     t.text     "description"
+    t.string   "dash_image_file_name"
+    t.string   "dash_image_content_type"
+    t.integer  "dash_image_file_size"
+    t.datetime "dash_image_updated_at"
+    t.string   "cover_photo_file_name"
+    t.string   "cover_photo_content_type"
+    t.integer  "cover_photo_file_size"
+    t.datetime "cover_photo_updated_at"
+    t.string   "image_1_file_name"
+    t.string   "image_1_content_type"
+    t.integer  "image_1_file_size"
+    t.datetime "image_1_updated_at"
+    t.string   "image_2_file_name"
+    t.string   "image_2_content_type"
+    t.integer  "image_2_file_size"
+    t.datetime "image_2_updated_at"
+    t.string   "image_3_file_name"
+    t.string   "image_3_content_type"
+    t.integer  "image_3_file_size"
+    t.datetime "image_3_updated_at"
+    t.string   "image_4_file_name"
+    t.string   "image_4_content_type"
+    t.integer  "image_4_file_size"
+    t.datetime "image_4_updated_at"
   end
 
 end

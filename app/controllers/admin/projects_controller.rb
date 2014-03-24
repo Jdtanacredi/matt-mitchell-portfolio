@@ -14,6 +14,7 @@ class Admin::ProjectsController < AdminsController
 
   def create
     @project = Project.create project_params
+    redirect_to admin_projects_path
   end
 
   def edit
@@ -27,7 +28,7 @@ class Admin::ProjectsController < AdminsController
   private
 
   def project_params
-    params.require(:project).permit(:dash_image, :cover_image, :image_1, :image_2, :image_3, :image_4)
+    params.require(:project).permit(:title, :description, :dash_image, :cover_photo, :image_1, :image_2, :image_3, :image_4)
   end
 
 end
