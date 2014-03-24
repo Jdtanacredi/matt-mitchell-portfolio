@@ -39,7 +39,6 @@ group :development do
   gem 'better_errors'
 end
 
-
 gem 'devise'
-gem 'paperclip", "~> 4.1'
-gem 'paperclip-dropbox", ">= 1.1.7'
+gem 'paperclip'
+gem 'paperclip-dropbox'
