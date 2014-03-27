@@ -22,7 +22,9 @@ class Admin::ProjectsController < AdminsController
   end
 
   def destroy
+    @project = Project.find params[:id]
     @project.destroy
+    redirect_to admin_projects_path
   end
 
   private
