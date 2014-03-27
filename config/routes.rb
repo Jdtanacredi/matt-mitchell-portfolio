@@ -10,5 +10,5 @@ MattMitchellPortfolio::Application.routes.draw do
   end
 
   resources :projects, only: [:index, :show]
-  resources :blogs, only: [:index]
+  resources :blogs, only: [:index, :show]
 end
