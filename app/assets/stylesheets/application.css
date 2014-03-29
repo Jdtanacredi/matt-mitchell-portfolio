@@ -11,3 +11,48 @@
  *= require_self
  *= require_tree .
  */
+body {
+   margin: 0px;
+}
+
+nav {
+    clear: both;
+}
+
+.nav_left {
+    float: left;
+    width: 33%;
+    background: red;
+    height: 100px;
+    /*margin-bottom: 20px;*/
+}
+
+.nav_right {
+    float: right;
+    width: 67%;
+    background: dimgrey;
+    height: 100px;
+    /*margin-bottom: 20px;*/
+}
+
+nav section article {
+    background-color: mediumvioletred;
+    width: 50%;
+    height:50px;
+    float:right;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+.notice {
+    clear:both;
+}
+
+.yield {
+    clear: both;
+}
+
+
+footer {
+
+}

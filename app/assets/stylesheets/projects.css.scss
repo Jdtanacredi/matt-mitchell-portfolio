@@ -1,3 +1,23 @@
 // Place all the styles related to the Projects controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+project_loop {
+  margin: 0px, 0px, 15px, 0px;
+}
+
+
+.cover {
+  width: 100%;
+  margin: 0px;
+}
+
+.project_title {
+  float: left;
+  width: 33%;
+}
+
+.project_description {
+  float: left;
+  width: 67%;
+}

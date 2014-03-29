@@ -1,8 +1,12 @@
-<% @projects.each do |project| %>
-    <%=	project.title %>
-    <%= project.description %>
-    <%=	image_tag project.dash_image.url %>
+<section>
+    <article class="project_loop">
+        <% @projects.each do |project| %>
+            <%#= project.title %>
+            <%#= project.description %>
+            <%=	image_tag project.dash_image.url %>
 
-    <%= link_to 'View', project %>
+            <%= link_to 'View', project %>
 
-<% end %>
+        <% end %>
+    </article>
+</section>
