@@ -1,13 +1,5 @@
 class Project < ActiveRecord::Base
 
-  #pictures = [:dash_image, :cover_photo, :image_1, :image_2, :image_3, :image_4]
-  #
-  #pictures.each do |picture|
-  #  has_attached_file picture, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
-  #  validates_attachment_content_type picture, :content_type => /\Aimage\/.*\Z/
-  #end
-
-
   has_attached_file :dash_image, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
   has_attached_file :cover_photo, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
   has_attached_file :image_1, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
@@ -22,6 +14,12 @@ class Project < ActiveRecord::Base
   validates_attachment_content_type :image_3, :content_type => /\Aimage\/.*\Z/
   validates_attachment_content_type :image_4, :content_type => /\Aimage\/.*\Z/
 
+  #pictures = [:dash_image, :cover_photo, :image_1, :image_2, :image_3, :image_4]
+
+  #pictures.each do |picture|
+  #  has_attached_file picture, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
+  #  validates_attachment_content_type picture, :content_type => /\Aimage\/.*\Z/
+  #end
 
 end
 
