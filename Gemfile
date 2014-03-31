@@ -1,13 +1,9 @@
 source 'https://rubygems.org'
 
 gem 'rails', '4.0.2'
-
 gem 'sqlite3'
-
 gem 'sass-rails', '~> 4.0.0'
-
 gem 'uglifier', '>= 1.3.0'
-
 gem 'coffee-rails', '~> 4.0.0'
 
 # See https://github.com/sstephenson/execjs#readme for more supported runtimes
@@ -27,6 +23,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'devise'
+gem 'paperclip'
+gem 'paperclip-dropbox'
+gem 'figaro'
 
 group :development do
   gem 'pry'
@@ -34,7 +34,6 @@ group :development do
   gem 'better_errors'
 end
 
-gem 'devise'
-gem 'paperclip'
-gem 'paperclip-dropbox'
-gem 'figaro'
+group :production do
+  gem 'pg'
+end

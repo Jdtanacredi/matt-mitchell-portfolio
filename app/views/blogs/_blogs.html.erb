@@ -1,0 +1,7 @@
+
+<% @blogs.each do |blog| %>
+    <%=	 image_tag blog.blog_image.url %>
+    <%= blog.title %>
+    <%= blog.headline_bold %>
+    <%= blog.blog_description %>
+<% end %>
