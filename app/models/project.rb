@@ -1,4 +1,6 @@
 class Project < ActiveRecord::Base
+  validates :title, presence: true, uniqueness: true
+  validates :description, presence: true, uniqueness: true
 
   has_attached_file :dash_image, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
   has_attached_file :cover_photo, :storage => :dropbox, :dropbox_credentials => Rails.root.join("config/dropbox.yml")
