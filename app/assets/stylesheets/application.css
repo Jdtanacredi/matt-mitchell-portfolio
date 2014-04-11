@@ -15,33 +15,54 @@ body {
    margin: 0px;
 }
 
-nav {
-    clear: both;
+header {
+    margin: 0;
+    overflow: hidden;
 }
 
+.logo {
+    padding-left: 40%;
+    padding-top: 15px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+}
+
+nav ul li {
+    text-decoration: none;
+    float: left;
+    color: white;
+    padding-top: 50px;
+    padding-right: 30px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
 .nav_left {
     float: left;
     width: 33%;
     background: red;
-    height: 100px;
+    height: 120px;
+    /*margin-bottom: 20px;*/
+}
+
+.nav_middle {
+    float: left;
+    width: 33%;
+    background: #282828;
+    height: 120px;
     /*margin-bottom: 20px;*/
 }
 
 .nav_right {
-    float: right;
-    width: 67%;
-    background: dimgrey;
-    height: 100px;
-    /*margin-bottom: 20px;*/
-}
-
-nav section article {
-    background-color: mediumvioletred;
-    width: 50%;
-    height:50px;
-    float:right;
-    margin-right: 30px;
-    margin-top: 50px;
+    float: left;
+    width: 34%;
+    background: #282828;
+    height: 120px;
 }
 
 .notice {
@@ -52,7 +73,9 @@ nav section article {
     clear: both;
 }
 
-
 footer {
-
+    background: #282828;
+    height: 100px;
+    margin-top: 15px;
+    border-top: 2px solid red;
 }
