@@ -42,6 +42,12 @@ nav ul li a {
     text-decoration: none;
     color: white;
 }
+
+nav ul li a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #e33d3d;
+}
+
 .nav_left {
     float: left;
     width: 33%;

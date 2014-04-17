@@ -6,7 +6,7 @@ project_loop {
   margin: 0px, 0px, 15px, 0px;
 }
 
-
+//ADMIN STYLING
 .cover {
   width: 100%;
   margin: 0px;
@@ -20,4 +20,18 @@ project_loop {
 .project_description {
   float: left;
   width: 67%;
+}
+
+//MAIN PAGE STYLING
+.dash_padding {
+  height: 15px;
+  border-bottom: 2px solid #e33d3d;
+}
+
+.project_loop {
+  width: 33%;
+}
+
+.style_image {
+  width: 100%;
 }

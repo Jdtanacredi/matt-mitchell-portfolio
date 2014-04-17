@@ -3,7 +3,7 @@
         <% @projects.each do |project| %>
             <%#= project.title %>
             <%#= project.description %>
-            <%=	image_tag project.dash_image.url %>
+            <%=	image_tag project.dash_image.url, class: 'style_image' %>
 
             <%= link_to 'View', project %>
 
