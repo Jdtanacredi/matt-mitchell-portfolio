@@ -84,11 +84,12 @@ footer {
     height: 100px;
     margin-top: 15px;
     border-top: 2px solid red;
+    height: 150px;
 }
 
 .footer_split {
     float: left;
     width: 33.3%;
     height: 100px;
-    padding-top: 35px;
+    padding-top: 55px;
 }
