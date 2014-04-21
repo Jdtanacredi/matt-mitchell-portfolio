@@ -2,11 +2,31 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-project_loop {
-  margin: 0px, 0px, 15px, 0px;
+//MAIN PAGE STYLING
+.dash_padding {
+  height: 15px;
+  border-bottom: 2px solid #e33d3d;
 }
 
-//ADMIN STYLING
+.project_loop {
+  width: 33%;
+  //  margin: 0px, 0px, 15px, 0px;
+}
+
+.style_image {
+  width: 100%;
+  height: auto;
+}
+
+// INDIVIDUAL PRODUCT STYLING
+.project_info_space {
+  margin: 0;
+  background: #282828;
+  color: white;
+  height: 150px;
+  border-top: 2px solid #e33d3d;
+}
+
 .cover {
   width: 100%;
   margin: 0px;
@@ -17,21 +37,17 @@ project_loop {
   width: 33%;
 }
 
-.project_description {
+.project_info_right {
   float: left;
   width: 67%;
 }
 
-//MAIN PAGE STYLING
-.dash_padding {
-  height: 15px;
-  border-bottom: 2px solid #e33d3d;
+.project_description {
+  padding: 15px;
 }
 
-.project_loop {
-  width: 33%;
-}
-
-.style_image {
+.style_image_individual {
   width: 100%;
+  height: auto;
+  margin-top: 15px;
 }

@@ -1,12 +1,11 @@
 <section>
-    <article class="project_loop">
-        <% @projects.each do |project| %>
-            <%#= project.title %>
-            <%#= project.description %>
-            <%=	image_tag project.dash_image.url, class: 'style_image' %>
-
-            <%= link_to 'View', project %>
-
-        <% end %>
-    </article>
+  <article class="project_loop">
+    <% @projects.each do |project| %>
+        <%#= project.title %>
+        <%#= project.description %>
+        <%= image_tag project.dash_image.url, class: 'style_image' %>
+        <%= link_to 'View', project %>
+    <% end %>
+  </article>
 </section>
+

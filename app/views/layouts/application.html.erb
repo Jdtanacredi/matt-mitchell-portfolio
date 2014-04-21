@@ -2,45 +2,53 @@
 <html>
 <head>
   <title>MattMitchellPortfolio</title>
-  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
 <body>
-    <header>
-          <section class="nav_left">
-            <article class="logo">
-              <%= image_tag 'whitelogo.png'  %>
-            </article>
-          </section>
-          <section class="nav_middle">
-          </section>
-          <section class="nav_right">
-            <!--<article>-->
-            <nav>
-                <ul>
-                  <li><%= link_to 'Work', projects_path %></li>
-                  <li><%= link_to 'Blog', blogs_path %></li>
-                  <li><a href="#">About</a></li>
-                </ul>
-            </nav>
-            <!--</article>-->
-          </section>
-    </header>
+<header>
+  <section class="nav_left">
+    <article class="logo">
+      <%= image_tag 'whitelogo.png' %>
+    </article>
+  </section>
+  <section class="nav_middle">
+  </section>
+  <section class="nav_right">
+    <!--<article>-->
+    <nav>
+      <ul>
+        <li><%= link_to 'Work', projects_path %></li>
+        <li><%= link_to 'Blog', blogs_path %></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <!--</article>-->
+  </section>
+</header>
 
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+<p class="notice"><%= notice %></p>
 
-    <section class="yield">
-      <%= yield %>
-    </section>
+<p class="alert"><%= alert %></p>
 
-    <footer>
-      <article>
+<section class="yield">
+  <%= yield %>
+</section>
 
-      </article>
+<footer>
+  <section class='footer_split'>
 
-    </footer>
+  </section>
+
+  <section class='footer_split'>
+    <%= link_to(image_tag('behance.png'), 'https://www.behance.net/meetchell') %>
+    <%= link_to(image_tag('dribbble.png'), 'https://dribbble.com/mattMEETCHELL') %>
+    <%= link_to(image_tag('linkedin.png'), 'http://www.linkedin.com/pub/matthew-mitchell/38/a29/954') %>
+    <%= link_to(image_tag('twitter.png'), 'https://twitter.com/mattMEETCHELL') %>
+  </section>
+
+</footer>
 
 </body>
 </html>

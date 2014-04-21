@@ -85,3 +85,10 @@ footer {
     margin-top: 15px;
     border-top: 2px solid red;
 }
+
+.footer_split {
+    float: left;
+    width: 33.3%;
+    height: 100px;
+    padding-top: 35px;
+}

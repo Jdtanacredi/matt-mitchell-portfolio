@@ -1,37 +1,36 @@
-
 <%= form_for @project, url: admin_projects_path, html: {multipart: true} do |f| %>
-   <section>
-        <%= f.label :title %>
-        <%= f.text_field :title %>
-   </section>
-   <section>
-        <%= f.label :description %>
-        <%= f.text_area :description, :size => '30x10' %>
+    <section>
+      <%= f.label :title %>
+      <%= f.text_field :title %>
+    </section>
+    <section>
+      <%= f.label :description %>
+      <%= f.text_area :description, :size => '30x10' %>
 
-   </section>
-   <section>
-        <%= f.label :dash_image %>
-        <%=	f.file_field :dash_image  %>
     </section>
     <section>
-        <%= f.label :cover_photo %>
-        <%=	f.file_field :cover_photo  %>
+      <%= f.label :dash_image %>
+      <%= f.file_field :dash_image %>
     </section>
     <section>
-        <%= f.label :image_1 %>
-        <%=	f.file_field :image_1  %>
+      <%= f.label :cover_photo %>
+      <%= f.file_field :cover_photo %>
     </section>
     <section>
-        <%= f.label :image_2 %>
-        <%=	f.file_field :image_2  %>
+      <%= f.label :image_1 %>
+      <%= f.file_field :image_1 %>
     </section>
     <section>
-        <%= f.label :image_3 %>
-        <%=	f.file_field :image_3  %>
+      <%= f.label :image_2 %>
+      <%= f.file_field :image_2 %>
     </section>
     <section>
-        <%= f.label :image_4 %>
-        <%=	f.file_field :image_4  %>
+      <%= f.label :image_3 %>
+      <%= f.file_field :image_3 %>
+    </section>
+    <section>
+      <%= f.label :image_4 %>
+      <%= f.file_field :image_4 %>
     </section>
     <section><%= f.submit %></section>
 

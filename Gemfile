@@ -31,7 +31,6 @@ gem 'figaro'
 group :development do
   gem 'pry'
   gem 'pry-rails'
-  gem 'better_errors'
 end
 
 group :production do
