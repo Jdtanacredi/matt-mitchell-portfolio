@@ -3,8 +3,8 @@
     <% @projects.each do |project| %>
         <%#= project.title %>
         <%#= project.description %>
-        <section class =dash_image>
-            <%= link_to(image_tag(project.dash_image.url), project, class: 'style_image') %>
+        <section class='dash_image'>
+          <%= link_to(image_tag(project.dash_image.url, class: 'style_image'), project) %>
         </section>
     <% end %>
   </article>
