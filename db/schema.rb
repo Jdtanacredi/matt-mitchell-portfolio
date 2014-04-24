@@ -68,10 +68,6 @@ ActiveRecord::Schema.define(version: 20140330161333) do
     t.string   "image_3_content_type"
     t.integer  "image_3_file_size"
     t.datetime "image_3_updated_at"
-    t.string   "image_4_file_name"
-    t.string   "image_4_content_type"
-    t.integer  "image_4_file_size"
-    t.datetime "image_4_updated_at"
   end
 
 end

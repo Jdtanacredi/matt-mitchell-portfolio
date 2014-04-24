@@ -30,7 +30,7 @@ class Admin::ProjectsController < AdminsController
   private
 
   def project_params
-    params.require(:project).permit(:title, :description, :dash_image, :cover_photo, :image_1, :image_2, :image_3, :image_4)
+    params.require(:project).permit(:title, :description, :dash_image, :cover_photo, :image_1, :image_2, :image_3)
   end
 
 end

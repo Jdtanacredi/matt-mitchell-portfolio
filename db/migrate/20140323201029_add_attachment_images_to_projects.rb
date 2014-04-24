@@ -6,7 +6,6 @@ class AddAttachmentImagesToProjects < ActiveRecord::Migration
       t.attachment :image_1
       t.attachment :image_2
       t.attachment :image_3
-      t.attachment :image_4
     end
   end
 
@@ -16,6 +15,5 @@ class AddAttachmentImagesToProjects < ActiveRecord::Migration
     drop_attached_file :projects, :image_1
     drop_attached_file :projects, :image_2
     drop_attached_file :projects, :image_3
-    drop_attached_file :projects, :image_4
   end
 end

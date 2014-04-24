@@ -87,12 +87,13 @@ footer {
     /*height: 150px;*/
     overflow: hidden;
     padding-bottom: 50px;
+    clear: both;
 }
+
 
 .footer_split {
     float: left;
     width: 33.3%;
-    /*height: 100px;*/
     padding-top: 55px;
 }
 
