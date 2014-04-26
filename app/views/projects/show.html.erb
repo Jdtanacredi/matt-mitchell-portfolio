@@ -1,6 +1,6 @@
 <%= link_to 'Home', root_path %>
 
-<section class="cover">
+<section class="ind_project_image">
   <%= image_tag @project.cover_photo.url, class: 'style_image' %>
 </section>
 
@@ -14,7 +14,7 @@
     </article>
   </article>
 </section>
-<%= image_tag @project.image_1.url, class: 'style_image_individual' %>
-<%= image_tag @project.image_2.url, class: 'style_image_individual' %>
-<%= image_tag @project.image_3.url, class: 'style_image_individual' %>
+<section class='ind_project_image'><%= image_tag @project.image_1.url, class: 'style_image' %></section>
+<section class='ind_project_image'><%= image_tag @project.image_2.url, class: 'style_image' %></section>
+<section class='ind_project_image'><%= image_tag @project.image_3.url, class: 'style_image' %></section>
 
