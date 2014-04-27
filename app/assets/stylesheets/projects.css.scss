@@ -31,6 +31,15 @@
   border-bottom: 2px solid #e33d3d;
 }
 
+.hidden_content {
+  display: none;
+  background: rgba(255,255,255,0.7);
+}
+
+//.hidden_content.hidden {
+//  display: none;
+//}
+
 // INDIVIDUAL PRODUCT STYLING
 .project_info_space {
   overflow: hidden;
