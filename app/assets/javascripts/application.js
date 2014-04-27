@@ -14,13 +14,3 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
-
-$('.style_image').hover(mouseEnter(), mouseLeave());
-
-function mouseEnter() {
-    $('.hidden_content').show();
-}
-
-function mouseLeave() {
-    $('.hidden_content').hide();
-}
