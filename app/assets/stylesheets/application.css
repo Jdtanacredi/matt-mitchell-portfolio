@@ -21,9 +21,16 @@ header {
     overflow: hidden;
 }
 
+.logo_container {
+    /*width: 100%;*/
+    margin-left: 35%;
+    margin-top: 2.5%;
+}
+
 .logo {
-    padding-left: 40%;
-    padding-top: 15px;
+    background: url('whitelogo.png');
+    background-repeat: no-repeat;
+    height: 87px;
 }
 
 nav ul {
@@ -78,14 +85,15 @@ nav ul li a:hover {
     clear: both;
 }
 
+.footer_padding {
+    padding: 10px;
+    clear: both;
+}
+
 footer {
     background: #282828;
-    /*height: 100px;*/
-    /*margin-top: 15px;*/
     border-top: 2px solid red;
-    /*height: 150px;*/
     overflow: hidden;
-    /*padding-bottom: 50px;*/
     clear: both;
 }
 
@@ -98,45 +106,69 @@ footer {
 
 footer ul {
     list-style: none;
+    position:relative;
 }
 
 footer ul li {
     display: inline-block;
-    padding-right: 45px;
+    padding-right: 15%;
 }
+
+/*footer ul li:last-child {*/
+    /*padding-right: 0;*/
+/*}*/
 
 footer section p {
-    clear: both;
     text-align: center;
+    color: lightgray;
 }
 
 .behance {
-    background: url('behance.png');
-    background-repeat: no-repeat;
-    /*width: 50px;*/
-    height: 50px;
+    background: url('sprite-sheet.png') no-repeat 0 -3px;
+    height: 26px;
 }
 
-.behance {
-    background: url('behance.png');
-    background-repeat: no-repeat;
-    height: 50px;
+.behance:hover {
+    background: url('sprite-sheet.png') no-repeat 0 -53px;
+    height: 26px;
 }
 
 .dribble {
-    background: url('dribbble.png');
-    background-repeat: no-repeat;
-    height: 50px;
+    background: url('sprite-sheet.png') no-repeat -92px 0;
+    height: 32px;
+}
+
+.dribble:hover {
+    background: url('sprite-sheet.png') no-repeat -92px -50px;
+    height: 32px;
 }
 
 .linkedin {
-    background: url('linkedin.png');
-    background-repeat: no-repeat;
-    height: 50px;
+    background: url('sprite-sheet.png') no-repeat -168px -1px;
+    height: 31px;
+}
+
+.linkedin:hover {
+    background: url('sprite-sheet.png') no-repeat -168px -51px;
+    height: 31px;
 }
 
 .twitter {
-    background: url('twitter.png');
-    background-repeat: no-repeat;
-    height: 50px;
+    background: url('sprite-sheet.png') no-repeat -237px -1px;
+    height: 30px;
+}
+
+.twitter:hover {
+    background: url('sprite-sheet.png') no-repeat -237px -51px;
+    height: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .nav_left {
+        float: left;
+        width: 100%;
+        background: red;
+        /*height: 120px;*/
+        padding: 0;
+    }
 }

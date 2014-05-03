@@ -11,9 +11,11 @@
 <body>
 <header>
   <section class="nav_left">
-    <article class="logo">
-      <%= image_tag 'whitelogo.png' %>
-    </article>
+    <section class='logo_container'>
+      <article class="logo">
+        <%#= image_tag 'whitelogo.png' %>
+      </article>
+    </section>
   </section>
   <section class="nav_middle">
   </section>
@@ -28,13 +30,15 @@
   </section>
 </header>
 
-<p class="notice"><%= notice %></p>
+<!--<p class="notice"><%#= notice %></p>-->
 
-<p class="alert"><%= alert %></p>
+<!--<p class="alert"><%#= alert %></p>-->
 
 <section class="yield">
   <%= yield %>
 </section>
+
+<section class='footer_padding'></section>
 
 <footer>
   <section class='footer_split'>
@@ -52,11 +56,11 @@
       <!--<li> <%#= link_to(image_tag('linkedin.png'), 'http://www.linkedin.com/pub/matthew-mitchell/38/a29/954') %> </li>-->
       <!--<li> <%#= link_to(image_tag('twitter.png'), 'https://twitter.com/mattMEETCHELL') %> </li>-->
     </ul>
+    <section>
+      <p> Matt Mitchell 2014</p>
+    </section>
   </section>
   <section class='footer_split'></section>
-  <section>
-    <p> Matt Mitchell 2014</p>
-  </section>
 </footer>
 
 </body>

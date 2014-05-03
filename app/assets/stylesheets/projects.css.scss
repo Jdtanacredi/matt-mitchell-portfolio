@@ -12,17 +12,18 @@
 .style_image {
   width: 100%;
   height: auto;
-  margin-top: 15px;
   display: inline-block;
 }
 
 #dash_image {
   width: 33.33%;
   float: left;
+  margin: 0;
+  padding: 0;
 }
 
 .dash_padding {
-  height: 15px;
+  padding: 1%;
   border-bottom: 2px solid #e33d3d;
 }
 
