@@ -60,7 +60,17 @@
 .project_description {
   padding: 15px;
 }
-
+.ind_project_padding {
+  padding-left: 46%;
+}
+.home_button {
+  background: url('sprite-sheet.png') no-repeat -306px -1px;
+  height: 35px;
+}
+.home_button:hover {
+  background: url('sprite-sheet.png') no-repeat -306px -51px;
+  height: 35px;
+}
 
 // SMALLER SCREENS
 @media screen and (max-width: 700px) {

@@ -111,7 +111,8 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    padding-right: 15%;
+    padding-right: 12%;
+    margin-left: 9%;
 }
 
 /*footer ul li:last-child {*/
@@ -170,5 +171,19 @@ footer section p {
         background: red;
         /*height: 120px;*/
         padding: 0;
+    }
+    .nav_middle {
+        display: none;
+    }
+
+    .nav_right {
+        float: left;
+        width: 100%;
+        background: #282828;
+        padding: 5%;
+    }
+
+    .footer_split {
+        width: 100%;
     }
 }
