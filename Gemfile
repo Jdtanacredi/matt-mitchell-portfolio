@@ -27,6 +27,8 @@ gem 'devise'
 gem 'paperclip'
 gem 'paperclip-dropbox'
 gem 'figaro'
+gem 'sass'
+
 
 group :development do
   gem 'pry'

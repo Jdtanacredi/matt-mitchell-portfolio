@@ -12,16 +12,11 @@
 .style_image {
   width: 100%;
   height: auto;
-}
-
-.style_image {
-  width: 100%;
-  height: auto;
   margin-top: 15px;
   display: inline-block;
 }
 
-.dash_image {
+#dash_image {
   width: 33.33%;
   float: left;
 }
@@ -33,7 +28,7 @@
 
 .hidden_content {
   display: none;
-  background: rgba(0,0,0,0.7);
+  background: rgba(0, 0, 0, 0.7);
   color: red;
 }
 
@@ -65,3 +60,10 @@
   padding: 15px;
 }
 
+
+// SMALLER SCREENS
+@media screen and (max-width: 700px) {
+  #dash_image {
+    width: 50%;
+  }
+}

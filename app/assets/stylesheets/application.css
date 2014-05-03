@@ -35,8 +35,8 @@ nav ul li {
     text-decoration: none;
     float: left;
     color: white;
-    padding-top: 50px;
-    padding-right: 30px;
+    padding-top: 10%;
+    padding-right: 5%;
 }
 
 nav ul li a {
@@ -45,7 +45,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    padding-bottom: 5px;
+    padding-bottom: 15%;
     border-bottom: 2px solid #e33d3d;
 }
 
@@ -54,7 +54,6 @@ nav ul li a:hover {
     width: 33%;
     background: red;
     height: 120px;
-    /*margin-bottom: 20px;*/
 }
 
 .nav_middle {
@@ -62,7 +61,6 @@ nav ul li a:hover {
     width: 33%;
     background: #282828;
     height: 120px;
-    /*margin-bottom: 20px;*/
 }
 
 .nav_right {
@@ -82,20 +80,20 @@ nav ul li a:hover {
 
 footer {
     background: #282828;
-    height: 100px;
-    margin-top: 15px;
+    /*height: 100px;*/
+    /*margin-top: 15px;*/
     border-top: 2px solid red;
     /*height: 150px;*/
     overflow: hidden;
-    padding-bottom: 50px;
+    /*padding-bottom: 50px;*/
     clear: both;
 }
-
 
 .footer_split {
     float: left;
     width: 33.3%;
-    padding-top: 55px;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 footer ul {
@@ -103,7 +101,7 @@ footer ul {
 }
 
 footer ul li {
-    float: left;
+    display: inline-block;
     padding-right: 45px;
 }
 
@@ -113,6 +111,32 @@ footer section p {
 }
 
 .behance {
-    display: inline-block;
-    background: url("behance.png")
+    background: url('behance.png');
+    background-repeat: no-repeat;
+    /*width: 50px;*/
+    height: 50px;
+}
+
+.behance {
+    background: url('behance.png');
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.dribble {
+    background: url('dribbble.png');
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.linkedin {
+    background: url('linkedin.png');
+    background-repeat: no-repeat;
+    height: 50px;
+}
+
+.twitter {
+    background: url('twitter.png');
+    background-repeat: no-repeat;
+    height: 50px;
 }

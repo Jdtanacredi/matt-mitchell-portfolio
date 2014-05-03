@@ -2,19 +2,17 @@
   <section class='dash_padding'></section>
   <article class="project_loop">
     <% @projects.each do |project| %>
-        <section class='dash_image'>
+        <section id="dash_image">
           <%= link_to(image_tag(project.dash_image.url, class: 'style_image'), project) %>
           <section class='hidden_content'>
             <article>
               <%= project.title %>
             </article>
-
             <article>
               <%= project.description %>
             </article>
           </section>
         </section>
-
     <% end %>
   </article>
 </section>
