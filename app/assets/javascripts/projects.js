@@ -1,20 +1,18 @@
 $(document).ready(function () {
+    clicker('.behance', 'https://www.behance.net/meetchell');
+    clicker('.dribble', 'https://dribbble.com/mattMEETCHELL' );
+    clicker('.linkedin', 'http://www.linkedin.com/pub/matthew-mitchell/38/a29/954');
+    clicker('.twitter', 'https://twitter.com/mattMEETCHELL');
 
-    $('.behance').click(function(){
-        window.open('https://www.behance.net/meetchell');
+    $('.home_button').click(function(){
     });
 
-    $('.dribble').click(function(){
-        window.open('https://dribbble.com/mattMEETCHELL');
-    });
+    function clicker(view_class, web_address) {
+        $(view_class).click(function(){
+            window.open(web_address);
+        });
+    }
 
-    $('.linkedin').click(function(){
-        window.open('http://www.linkedin.com/pub/matthew-mitchell/38/a29/954');
-    });
-
-    $('.twitter').click(function(){
-        window.open('https://twitter.com/mattMEETCHELL');
-    });
 
 //
 //$('.style_image').hover(my_mouse_enter, my_mouse_leave);
@@ -44,4 +42,6 @@ $(document).ready(function () {
 //        });
 //
 //    });
+
+
 });
