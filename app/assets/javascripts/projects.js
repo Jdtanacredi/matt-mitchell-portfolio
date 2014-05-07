@@ -1,18 +1,18 @@
 $(document).ready(function () {
-    clicker('.behance', 'https://www.behance.net/meetchell');
-    clicker('.dribble', 'https://dribbble.com/mattMEETCHELL' );
-    clicker('.linkedin', 'http://www.linkedin.com/pub/matthew-mitchell/38/a29/954');
-    clicker('.twitter', 'https://twitter.com/mattMEETCHELL');
+    open_new_page('.behance', 'https://www.behance.net/meetchell');
+    open_new_page('.dribble', 'https://dribbble.com/mattMEETCHELL' );
+    open_new_page('.linkedin', 'http://www.linkedin.com/pub/matthew-mitchell/38/a29/954');
+    open_new_page('.twitter', 'https://twitter.com/mattMEETCHELL');
 
     $('.home_button').click(function(){
+       // FIGURE OUT HOW TO CALL RAILS ROOT PATH IN HERE!!!!!
     });
 
-    function clicker(view_class, web_address) {
+    function open_new_page(view_class, web_address) {
         $(view_class).click(function(){
             window.open(web_address);
         });
     }
-
 
 //
 //$('.style_image').hover(my_mouse_enter, my_mouse_leave);
