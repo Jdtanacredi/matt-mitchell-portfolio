@@ -45,6 +45,7 @@
 .ind_project_image {
   width: 100%;
   margin: 0px;
+  margin-bottom: -5px;
 }
 
 .project_title {
@@ -62,7 +63,10 @@
 }
 .ind_project_padding {
   padding-left: 46%;
+  padding-bottom: 5px;
+  padding-top: 10px;
 }
+
 .home_button {
   background: url('sprite-sheet.png') no-repeat -306px -1px;
   height: 35px;
