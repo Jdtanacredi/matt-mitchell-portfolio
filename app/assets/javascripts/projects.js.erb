@@ -5,7 +5,9 @@ $(document).ready(function () {
     open_new_page('.twitter', 'https://twitter.com/mattMEETCHELL');
 
     $('.home_button').click(function(){
-       // FIGURE OUT HOW TO CALL RAILS ROOT PATH IN HERE!!!!!
+        window.location.replace("/");
+        //window.location = <%# root_path %>
+        console.log('working!');
     });
 
     function open_new_page(view_class, web_address) {
@@ -15,16 +17,16 @@ $(document).ready(function () {
     }
 
 //
-//$('.style_image').hover(my_mouse_enter, my_mouse_leave);
-//
-//function my_mouse_enter() {
-//    $('.hidden_content').show();
-//}
-//
-//function my_mouse_leave() {
-//    $('.hidden_content').hide();
-//}
-//
+$('.style_image').hover(my_mouse_enter, my_mouse_leave);
+
+function my_mouse_enter() {
+    $('.hidden_content').show();
+}
+
+function my_mouse_leave() {
+    $('.hidden_content').hide();
+}
+
 //});
 
 //$(document).ready(function () {
