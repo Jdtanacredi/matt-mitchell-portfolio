@@ -6,26 +6,26 @@ $(document).ready(function () {
 
     $('.home_button').click(function(){
         window.location.replace("/");
-        //window.location = <%# root_path %>
         console.log('working!');
     });
 
     function open_new_page(view_class, web_address) {
         $(view_class).click(function(){
             window.open(web_address);
+            console.log('test');
         });
     }
 
+
+//$('.style_image').hover(my_mouse_enter, my_mouse_leave);
 //
-$('.style_image').hover(my_mouse_enter, my_mouse_leave);
-
-function my_mouse_enter() {
-    $('.hidden_content').show();
-}
-
-function my_mouse_leave() {
-    $('.hidden_content').hide();
-}
+//function my_mouse_enter() {
+//    $('.hidden_content').show();
+//}
+//
+//function my_mouse_leave() {
+//    $('.hidden_content').hide();
+//}
 
 //});
 
