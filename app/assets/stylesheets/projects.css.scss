@@ -74,11 +74,11 @@
 }
 
 .home_button {
-  background: url('sprite-sheet.png') no-repeat -306px -1px;
+  background: image-url('sprite-sheet.png') no-repeat -306px -1px;
   height: 35px;
 }
 .home_button:hover {
-  background: url('sprite-sheet.png') no-repeat -306px -51px;
+  background: image-url('sprite-sheet.png') no-repeat -306px -51px;
   height: 35px;
 }
 

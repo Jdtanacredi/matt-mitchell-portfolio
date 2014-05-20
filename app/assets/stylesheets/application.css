@@ -28,7 +28,7 @@ header {
 }
 
 .logo {
-    background: url('whitelogo.png');
+    background: url('/assets/images/whitelogo.png');
     background-repeat: no-repeat;
     height: 87px;
 }
@@ -126,7 +126,7 @@ footer section p {
 }
 
 .behance {
-    background: url('sprite-sheet.png') no-repeat 0 -3px;
+    background: image-url('sprite-sheet.png') no-repeat 0 -3px;
     height: 26px;
 }
 
