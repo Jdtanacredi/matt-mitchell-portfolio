@@ -1,0 +1,24 @@
+.admin_project {
+  width: 100%;
+  clear: both;
+  border: 1px solid black;
+  height: auto;
+}
+
+.admin_project_info img{
+  width: 32%;
+  float: left;
+}
+
+.admin_project_info p {
+  vertical-align: top;
+  width: 32%;
+  float: left;
+  text-align: center;
+}
+
+.admin_buttons {
+  list-style: none;
+  width: 32%;
+  float: left;
+}
