@@ -102,8 +102,6 @@ footer {
 
 .footer_split {
     margin: 0 auto;
-    /*padding-top: 5%;*/
-    /*padding-bottom: 5%;*/
     width: 500px;
 }
 
@@ -193,7 +191,6 @@ footer section p {
     }
 
     .footer_split {
-        /*width: 100%;*/
         margin: 0 auto;
         width: 310px;
     }
