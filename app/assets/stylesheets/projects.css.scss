@@ -9,6 +9,7 @@
   height: auto;
   display: inline-block;
   margin-bottom: 10px;
+  position: relative;
 }
 
 .dash_image {
@@ -30,7 +31,8 @@
   width: 33.3%;
   position: absolute;
   z-index: 10;
-  //top: 0;
+  top: 0;
+  left: 0;
 }
 
 .dash_image a {
