@@ -46,6 +46,8 @@
   background: #282828;
   color: white;
   border-top: 2px solid #e33d3d;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
 
 .ind_project_image {
@@ -56,12 +58,19 @@
 
 .project_title {
   float: left;
-  width: 33%;
+  width: 45%;
+}
+
+.project_title h1 {
+  font-size: 3em;
+  margin: 0;
+  margin-left: 25%;
 }
 
 .project_info_right {
   float: left;
-  width: 67%;
+  width: 40%;
+  margin-right: 15%;
 }
 
 .project_description {

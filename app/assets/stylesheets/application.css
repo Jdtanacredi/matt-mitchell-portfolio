@@ -99,10 +99,10 @@ footer {
 }
 
 .footer_split {
-    float: left;
-    width: 33.3%;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    margin: 0 auto;
+    /*padding-top: 5%;*/
+    /*padding-bottom: 5%;*/
+    width: 300px;
 }
 
 footer ul {
@@ -112,8 +112,9 @@ footer ul {
 
 footer ul li {
     display: inline-block;
-    padding-right: 12%;
-    margin-left: 9%;
+    margin-left: 5%;
+    padding-right: 42px;
+
 }
 
 /*footer ul li:last-child {*/
@@ -170,13 +171,16 @@ footer section p {
         float: left;
         width: 100%;
         background: red;
-        /*height: 120px;*/
         padding: 0;
+        padding-top: 15px;
     }
     .nav_middle {
         display: none;
     }
-
+    .logo_container {
+        margin: 0 auto;
+        width: 92px;
+    }
     .nav_right {
         float: left;
         width: 100%;
@@ -193,12 +197,17 @@ footer section p {
     }
     .nav_right {
         height: 30px;
+        padding: 5% 0;
     }
 
     nav ul li {
-        padding-top: 0;
-        padding-right: 25%;
-    }
+        padding: 0;
+        width: 31%;
 
+    }
+    nav ul li a {
+        display: block;
+        text-align: center;
+    }
 
 }
