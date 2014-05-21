@@ -5,7 +5,7 @@
         <section class="dash_image">
 
 
-          <img src="<%= project.dash_image.url %>" class="style_image">
+          <!--<img src="<%#= project.dash_image.url %>" class="style_image">-->
 
           <section class='hidden_content'>
             <article>
@@ -18,7 +18,7 @@
 
           </img>
 
-          <%#= link_to(image_tag(project.dash_image.url, class: 'style_image'), project) %>
+          <%= link_to(image_tag(project.dash_image.url, class: 'style_image'), project) %>
         </section>
     <% end %>
   </article>
