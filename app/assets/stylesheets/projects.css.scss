@@ -4,11 +4,6 @@
 
 //MAIN PAGE STYLING
 
-.project_loop {
-  //width: 33%;
-  //  margin: 0px, 0px, 15px, 0px;
-}
-
 .style_image {
   width: 100%;
   height: auto;
@@ -16,28 +11,38 @@
   margin-bottom: 10px;
 }
 
-#dash_image {
+.dash_image {
   width: 33.33%;
-  float: left;
   margin: 0;
+  margin-right: -4px;
   padding: 0;
+  display: inline-block;
+  //position: absolute;
 }
 
-//#dash_image:hover .hidden_content {
-//  color: red;
-//  padding: 20px;
-//}
+.hidden_content {
+  display: none;
+}
+
+.dash_image:hover .hidden_content {
+  background: rgba(0, 0, 0, 0.2);
+  color: red;
+  width: 33.3%;
+  position: absolute;
+  z-index: 10;
+  //top: 0;
+}
+
+.dash_image a {
+  //width: 100%;
+  //position: absolute;
+}
 
 .dash_padding {
   padding: 1%;
   border-bottom: 2px solid #e33d3d;
 }
 
-.hidden_content {
-  display: none;
-  background: rgba(0, 0, 0, 0.7);
-  color: red;
-}
 
 // INDIVIDUAL PRODUCT STYLING
 .project_info_space {
