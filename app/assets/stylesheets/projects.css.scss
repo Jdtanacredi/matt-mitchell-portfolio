@@ -26,16 +26,20 @@
 }
 
 .dash_image:hover .hidden_content {
-  background: rgba(0, 0, 0, 0.2);
-  color: red;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
   width: 33.3%;
   position: absolute;
   z-index: 10;
 }
 
+.hidden_content article {
+  width: 100%;
+  padding: 15%;
+}
+
 .dash_image a {
-  //width: 100%;
-  //position: absolute;
+  z-index: 1;
 }
 
 .dash_padding {
@@ -82,26 +86,60 @@
   padding: 15px;
 }
 .ind_project_padding {
-  padding-left: 46%;
   padding-bottom: 5px;
   padding-top: 10px;
 }
 
 .home_button {
   background: url('sprite-sheet.png') no-repeat -306px -1px;
-  height: 35px;
+  height: 44px;
+  width: 55px;
+  margin: 0 auto;
 }
 .home_button:hover {
   background: url('sprite-sheet.png') no-repeat -306px -51px;
-  height: 35px;
+  height: 44px;
+  width: 55px;
+  margin: 0 auto;
 }
 
 // SMALLER SCREENS
 @media screen and (max-width: 700px) {
-  #dash_image {
+  .dash_image {
     width: 50%;
   }
-  #dash_image img {
+  .dash_image img {
     margin-bottom: -5px;
   }
+
+  //individual project page
+
+  .project_title {
+    width: 100%;
+  }
+
+  .project_title h1 {
+    margin-left: 15%;
+  }
+
+  .project_info_right {
+    margin-left: 15%;
+    width: 80%;
+    clear: both;
+    margin-right: 5%;
+  }
+
+  .project_description {
+    padding: 0;
+  }
+
+  .hidden_content article {
+    width: 100%;
+    padding: 10%;
+  }
+
+  nav ul li a {
+    font-size: 1.3em;
+  }
+
 }
