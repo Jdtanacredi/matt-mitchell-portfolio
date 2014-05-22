@@ -58,6 +58,12 @@
   background: white;
 }
 
+.image_padding_show {
+  width: 100%;
+  padding: 10px 0;
+  background: white;
+}
+
 // INDIVIDUAL PRODUCT STYLING
 .project_info_space {
   overflow: hidden;
@@ -72,7 +78,6 @@
 .ind_project_image {
   width: 100%;
   margin: 0px;
-  margin-bottom: -5px;
 }
 
 .project_title {
@@ -143,6 +148,7 @@
     padding: 0;
   }
 
+
   .hidden_content article {
     width: 100%;
     padding: 5%;
@@ -151,6 +157,14 @@
 
   nav ul li a {
     font-size: 1.3em;
+  }
+
+  .image_padding_show {
+    padding: 5px 0;
+  }
+
+  .image_padding {
+    display: none;
   }
 
 }
