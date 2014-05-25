@@ -38,14 +38,19 @@ header {
 nav ul {
     list-style: none;
     margin: 0;
+    padding-top: 76px;
+    padding-left: 0;
 }
 
 nav ul li {
     text-decoration: none;
     float: left;
     color: white;
-    padding-top: 10%;
-    padding-right: 5%;
+    padding-right: 20%;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
 }
 
 nav ul li a {
@@ -98,6 +103,7 @@ footer {
     overflow: hidden;
     clear: both;
     margin-bottom: 0;
+    padding-bottom: 5%;
 }
 
 .footer_split {
@@ -208,12 +214,16 @@ footer section p {
 
     nav ul li {
         padding: 0;
-        width: 30.7%;
+        width: 32.9%;
 
     }
     nav ul li a {
         display: block;
         text-align: center;
+    }
+
+    nav ul {
+    padding-top: 0;
     }
 
 }
