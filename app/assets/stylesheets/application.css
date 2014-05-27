@@ -119,14 +119,18 @@ footer ul {
 footer ul li {
     display: inline-block;
     margin-left: 7%;
-    margin-right: 7%;
+    margin-right: 11%;
     padding-right: 42px;
 
 }
 
-/*footer ul li:last-child {*/
-    /*padding-right: 0;*/
-/*}*/
+footer ul li:first-child {
+    margin-left: 0;
+}
+
+footer ul li:last-child {
+    margin-right: 0;
+}
 
 footer section p {
     text-align: center;
