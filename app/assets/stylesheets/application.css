@@ -46,7 +46,7 @@ nav ul li {
     text-decoration: none;
     float: left;
     color: white;
-    padding-right: 20%;
+    padding-right: 31%;
 }
 
 nav ul li:last-child {
@@ -113,7 +113,7 @@ footer {
 
 footer ul {
     list-style: none;
-    position:relative;
+    position: relative;
 }
 
 footer ul li {
@@ -177,7 +177,19 @@ footer section p {
     height: 30px;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 910px), screen and (max-device-width: 910px) {
+    nav ul li {
+    padding-right: 27%;
+    }
+}
+
+@media screen and (max-width: 810px), screen and (max-device-width: 810px) {
+    nav ul li {
+        padding-right: 25%;
+    }
+}
+
+@media screen and (max-width: 700px), screen and (max-device-width: 700px) {
     .nav_left {
         float: left;
         width: 100%;
@@ -186,13 +198,16 @@ footer section p {
         padding-top: 15px;
         height: 120px;
     }
+
     .nav_middle {
         display: none;
     }
+
     .logo_container {
         margin: 0 auto;
         width: 92px;
     }
+
     .nav_right {
         float: left;
         width: 100%;
@@ -204,6 +219,7 @@ footer section p {
         margin: 0 auto;
         width: 310px;
     }
+
     footer ul li {
         width: 44px;
         padding: 0;
@@ -221,13 +237,14 @@ footer section p {
         width: 32.9%;
 
     }
+
     nav ul li a {
         display: block;
         text-align: center;
     }
 
     nav ul {
-    padding-top: 0;
+        padding-top: 0;
     }
 
 }
