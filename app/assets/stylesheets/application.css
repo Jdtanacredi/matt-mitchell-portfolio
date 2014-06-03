@@ -213,7 +213,8 @@ footer section p {
         float: left;
         width: 100%;
         background: #282828;
-        padding: 5%;
+        height: 30px;
+        padding: 5% 0;
     }
 
     .footer_split {
@@ -228,11 +229,6 @@ footer section p {
         margin-right: 7px;
     }
 
-    .nav_right {
-        height: 30px;
-        padding: 5% 0;
-    }
-
     nav ul li {
         padding: 0;
         width: 32.9%;
@@ -242,6 +238,7 @@ footer section p {
     nav ul li a {
         display: block;
         text-align: center;
+        font-size: 1.3em;
     }
 
     nav ul {

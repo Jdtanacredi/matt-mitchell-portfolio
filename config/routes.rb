@@ -11,4 +11,6 @@ MattMitchellPortfolio::Application.routes.draw do
 
   resources :projects, only: [:index, :show]
   resources :blogs, only: [:index, :show]
+
+  get ':action' => 'static#:action'
 end
