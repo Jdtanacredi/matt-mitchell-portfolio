@@ -27,6 +27,9 @@ gem 'paperclip'
 gem 'paperclip-dropbox'
 gem 'figaro'
 gem 'sass'
+gem 'rack-cache'
+gem 'dalli'
+gem 'kgio'
 
 
 group :development do
