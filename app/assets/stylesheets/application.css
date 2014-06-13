@@ -65,21 +65,21 @@ nav ul li a:hover {
 
 .nav_left {
     float: left;
-    width: 33.3%;
+    width: 33.3333%;
     background: red;
     height: 120px;
 }
 
 .nav_middle {
     float: left;
-    width: 33.3%;
+    width: 33.3333%;
     background: #282828;
     height: 120px;
 }
 
 .nav_right {
     float: left;
-    width: 33.3%;
+    width: 33.3333%;
     background: #282828;
     height: 120px;
 }
