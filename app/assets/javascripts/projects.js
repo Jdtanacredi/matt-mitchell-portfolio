@@ -31,6 +31,12 @@ ready = function () {
 
 }
 
+function hide_hover() {
+    $('.hidden_content').hide();
+}
+
+
 $(document).ready(ready);
+$(document).on('page:change', hide_hover);
 $(document).on('page:load', ready);
 //$(document).on('page:change', ready);
