@@ -13,7 +13,6 @@ ready = function () {
     function open_new_page(view_class, web_address) {
         $(view_class).click(function () {
             window.open(web_address);
-            console.log('test');
         });
     }
 
@@ -33,4 +32,4 @@ ready = function () {
 }
 
 $(document).ready(ready);
-$(document).on('page:load', ready);
+$(document).on('page:change', ready);
